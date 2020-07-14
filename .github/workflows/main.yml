@@ -28,4 +28,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./caranimation.surge.sh --token ${{secrets.Surge_secret}}
+      run: surge ./caranimationbykamali.surge.sh --token ${{secrets.Surge_secret}}
