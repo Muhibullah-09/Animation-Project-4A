@@ -28,4 +28,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ bootcampkamali.surge.sh --token ${{secret.SURGE_SECRET}}
+      run: surge ./ animationwithoutreactbykamali.surge.sh --token ${{secret.SURGE_SECRET}}
